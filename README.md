@@ -1,0 +1,2 @@
+# IceCreamGame
+Vanilla JS
