@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://files.geektime.co.il/wp-content/uploads/2017/10/GettyImages-143918209.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+#wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  position: relative;
+  display: inline-grid;
+  background: black;
+}
+
+.game-status {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  border: 5px white solid;
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+#score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border: 5px white solid;
+  background: black;
+  margin-top: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+#start-button {
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.square {
+  display: block;
+}
+
+.blank {
+  background: black;
+}
+
+.wall {
+  border: 1px solid white;
+  background-color: skyblue;
+}
+
+.icecream {
+  background: url("https://i.pinimg.com/564x/36/d0/f5/36d0f51a05ad4548726cc50dfbf418fe.jpg")
+    no-repeat center;
+  background-size: contain;
+}
+
+.badfish {
+  background: url("https://thumbs.dreamstime.com/b/skeleton-fish-black-background-cartoon-vector-character-illustration-142376899.jpg")
+    no-repeat center;
+  background-size: contain;
+}
+
+.shark {
+  background: url("https://pixy.org/src/67/thumbs350/672196.jpg") no-repeat
+    center;
+  background-size: contain;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.penguin {
+  background: url("https://cdn.pixabay.com/photo/2012/04/01/12/24/penguin-23159_1280.png")
+    no-repeat center;
+  background-size: contain;
+}
